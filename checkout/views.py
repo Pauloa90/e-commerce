@@ -32,7 +32,7 @@ def checkout(request):
                     order = order,
                     product = product,
                     quantity = quantity
-                )
+                    )
                 order_line_item.save()
             try:
                 customer = stripe.Charge.create(
@@ -50,9 +50,11 @@ def checkout(request):
                 return redirect(reverse('products'))
             else:
                 messages.error(request, "Unable to take payment")
+
         else:
-            print(payment_form.erros)
+            print(payment_form.errors)
             messages.error(request, "We were unable to take a payment with that card!")
+            
     else:
         payment_form = MakePaymentForm()
         order_form = OrderForm()

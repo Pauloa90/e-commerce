@@ -19,11 +19,11 @@
             <ul class="navbar-nav mr-auto">
             <a class="navbar-brand" href="/">Ecommerce</a>
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'logout'  %}">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}"><i class="fa fa-user"></i> Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'logout'  %}"><i class="fa fa-sign-out"></i>Logout</a></li>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'login'  %}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'registration' %}">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'login'  %}"><i class="fa fa-sign-in"></i>Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'registration' %}"><i class="fa fa-user-plus"></i>Register</a></li>
                 {% endif %}
                 <li>
                     <a href="{% url 'view_cart' %}">
