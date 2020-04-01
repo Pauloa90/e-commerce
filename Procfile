@@ -1,0 +1,1 @@
+web: gunicron e-commerce.wsgi:application
