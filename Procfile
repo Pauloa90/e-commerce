@@ -1,1 +1,1 @@
-web: gunicron e-commerce.wsgi:application
+web: gunicorn ecommerce.wsgi:application
