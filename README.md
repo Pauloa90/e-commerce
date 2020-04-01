@@ -1,1 +1,0 @@
-[![Build Status](https://travis-ci.com/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.com/Pauloa90/e-commerce)
