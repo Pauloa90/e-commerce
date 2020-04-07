@@ -1,16 +1,9 @@
 body{
     font-family: Arial;
-    
+    background-color: rgb(255, 255, 255);    
 }
 
-footer{
-    margin-top: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-top: 1px solid #ededed;
-    color: #a9a9a9
 
-}
 
 .icon-bar {
     background-color: #fff;
@@ -69,4 +62,106 @@ caption p{
 
 .product-description{
     min-height: 40px
+}
+
+/*---------- Footer -------*/
+
+#footer {
+ background:  #36556d;
+ padding: 0 0 20px 0;
+ font-size: 13px;
+ font-family: 'Bebas Neue'
+}
+
+#footer p {
+    color: rgb(248, 248, 248);
+    line-height: 25px;
+    letter-spacing: 2px;
+    
+}
+#footer .footer-top {
+ background:  #215b8a;
+ padding: 40px;
+}
+
+
+
+#footer h3, h2 {
+
+color: #ffc107;
+margin: 0;
+padding: 0;
+margin-top: 30px;
+
+} 
+
+#footer h2 {
+font-size: 18px;
+} 
+
+#footer p {
+    margin-top:20px;
+}
+
+#footer .footer-links ul a:hover{
+ color: #50c6db;
+ text-decoration: none;
+}
+#footer .footer-links ul a{
+    color: #fafafa;
+    list-style: none;
+}
+
+
+#footer .footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer .footer-links ul li {
+    border-bottom: 1px solid #c9c3b4;
+    line-height: 40px;
+}
+
+#footer .copyright {
+ text-align: center;
+ padding-top: 1rem;
+}
+
+#footer hr{
+    margin-bottom: 2rem;
+    margin-top: 0;
+   
+}
+
+#footer .footer-social a {
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#footer .footer-social a i {
+    font-size: 20px;
+    color: #215b8a;
+    padding: 10px 12px;
+    opacity: 0.8;
+}
+
+#footer .footer-social a i:hover{
+    opacity: 1;
+    color: #50c6db;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer .footer-social a i{
+    opacity: 1;
+    color: #ffee07;
+    }
+}
+
+.text-muted .photos {
+    color: pink;
 }
