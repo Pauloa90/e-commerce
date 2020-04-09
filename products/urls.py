@@ -5,3 +5,4 @@ urlpatterns = [
     url(r'^$', all_products, name='products'),
 
 ]
+

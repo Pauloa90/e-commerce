@@ -6,11 +6,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA0Compatible" content="ie=edge">
-        <title>Ecommerce</title>
+        <title>E-go Go Anywhere you want!</title>
         <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -30,16 +32,29 @@
     <body>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand d-none d-lg-block" href="#">
-                <img src="https://ecommercego.s3-eu-west-1.amazonaws.com/media/images/egologo.png" style="width: 6rem; height: 6rem; padding:none" alt="">
+            <a class="navbar-brand" href="#">
+                <strong>E-go</strong>
             </a>
+            <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="{% url 'profile' %}"> Hotels</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="{% url 'logout'  %}">Resorts</a>
+                    </li>
+                     <li class="nav-item d-none d-lg-block"><a class="nav-link" href="{% url 'logout'  %}">Culture</a>
+                    </li>
+            </ul>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                  aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-
+                    <li class="nav-item d-lg-none "><a class="nav-link" href="{% url 'profile' %}"> Hotels</a>
+                    </li>
+                    <li class="nav-item d-lg-none "><a class="nav-link" href="{% url 'logout'  %}">Resorts</a>
+                    </li>
+                     <li class="nav-item d-lg-none "><a class="nav-link" href="{% url 'logout'  %}">Culture</a>
+                    </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}"><i class="fa fa-user"></i> Profile</a>
                     </li>
@@ -64,7 +79,7 @@
                 </ul>
             </div>
         </nav>
-        <img src="    ">
+        
 
         <h1>{% block page_heading %}{% endblock %}</h1>
 
@@ -77,17 +92,22 @@
             </div>
         </div>
         {% endif %}
-        <div class="container">
+        <div class="jumbotron ">
+            <h1 class="display-4 mt-5">Find your destination!</h1>
+            <p class="lead">You will find the best holiday package all inclusive that suits you best!</p>
             <div class="display">
-                <form action="{% url 'search' %}" method="get">
-                    <input type="text" name="q">
-                    <button type="submit">Search</button>
-
+                <form action="{% url 'search' %}" class="searchform form-inline" method="get">
+                    <div class="form row col-12">
+                        <input type="text" name="q" class="form-control col-4">
+                        <button  class="btn btn-light" type="submit"><strong> Search </strong></button>
+                    </div>
 
                 </form>
             </div>
-            {% block content %}{% endblock %}
+            
+        
         </div>
+        {% block content %}{% endblock %}
         <footer id="footer">
             <div class="footer-top">
                 <div class="container-fluid">
@@ -111,7 +131,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 footer-social">
-                            <h2>Follow us on SOcial Medias</h2>
+                            <h2>Follow us on Social Medias</h2>
                             <p>Keep following us to check the best dealz for you next holidays!</p>
                             <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
