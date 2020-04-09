@@ -25,4 +25,16 @@
 </div>
 {% endfor %}
 </div>
+{% for todos in todos %}
+
+    <div class="card" style="width: 18rem;">
+        <div class="image" style="background-image: url('{{ MEDIA_URL }}{{ todos.imagens }}')"></div>
+        <div class="card-body">
+            <h5 class="card-title">{{ todos.continente }}</h5>
+        </div>
+    </div>
+        
+    
+{% endfor %}
+
 {% endblock %}

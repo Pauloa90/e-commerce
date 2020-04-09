@@ -24,11 +24,7 @@ from products.views import all_products
 from django.views import static
 from .settings import MEDIA_ROOT
 from world import urls as urls_world
-<<<<<<< HEAD
 from world.views import all_continentes
-=======
-from world.views import all_world
->>>>>>> b0e884ed60785b5910bda8bdecfbccd4688d3d85
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -39,12 +35,5 @@ urlpatterns = [
     url(r'^checkout/', include(urls_checkout)),
     url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT}),
-<<<<<<< HEAD
     url(r'^world/', all_continentes, name='world'),
-=======
-    url(r'^world/', include(urls_world)),
-  
->>>>>>> b0e884ed60785b5910bda8bdecfbccd4688d3d85
-    
 ]
-

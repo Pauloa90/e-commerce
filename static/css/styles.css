@@ -19,6 +19,15 @@ body{
 }
 
 
+.image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    
+}
 
 .searchform{
     margin-top: 20px;

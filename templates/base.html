@@ -107,6 +107,30 @@
             
         
         </div>
+        <div class="row row-flex">
+            {% for todos in todos %}
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default" >
+
+                <div class="panel body">
+                    <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ todos.imagens }}')"></div>        
+
+                    <h3>{{ todos.continente }}</h3>
+                
+                    
+                    
+                        {% csrf_token %}
+                        <div class="input-group">
+                            <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
+                            <span class="input-group-btn">
+                                <button class="btn btn-sucess" type="submit">Add</button>
+                            </span>
+                        </div>
+                
+                </div>
+            </div>
+            {% endfor %}
+            </div>
         {% block content %}{% endblock %}
         <footer id="footer">
             <div class="footer-top">
