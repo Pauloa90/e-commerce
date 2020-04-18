@@ -39,7 +39,9 @@ body{
     
 }
 
-
+.card{
+    margin-bottom: 60px;
+}
 
 .badge{
     padding-left: 9px;
