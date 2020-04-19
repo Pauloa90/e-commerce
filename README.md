@@ -16,13 +16,13 @@ This project is incorporates code pulled from other projects give by Code Instit
 Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
 
 Please check the link for a WireFrame and Screeshot:
-1. [Screeshot]()
-2. [Screeshot]()
-3. [Screeshot]()
-2. [WireFrame]()
+1. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot1.PNG)
+2. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot2.PNG)
+3. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot3.PNG)
+2. [WireFrame](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/wireframe.jpeg)
 
 
-## User Experience
+## User Experience 
 
 This website is for any user interested in going on holidays, looking for one single website where they can find a package with hotel, flight and experiences in just one place.
 The ecommerce is only online at the moment, depending on the clients wish, a special web app can be designed to have in a store.
@@ -99,7 +99,6 @@ HTML and CSS validators were used to ensure identation and error wont accur.
 ## Credits
 
 
-### Cards Content - Set your goal
 #### New Zealnd <br/> 
 [link](https://www.newzealand.com/in/nature-and-wildlife/)<br/>
 

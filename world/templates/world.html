@@ -1,40 +1,26 @@
 {% extends 'base.html' %}
 {% block content %}
-
+<!--This page will display all the produts that the comapny is selling and the user can search the destiny if they wish-->
 <div class="row row-flex">
 {% for todos in todos %}
 
-<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default" >
-
-    <div class="panel body">
-        <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ todos.imagens }}')"></div>        
-
-        <h3>{{ todos.continente }}</h3>
-      
-        
-        
-            {% csrf_token %}
-            <div class="input-group">
-                <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
-                <span class="input-group-btn">
-                    <button class="btn btn-sucess" type="submit">Add</button>
-                </span>
-            </div>
-       
-    </div>
-</div>
-{% endfor %}
-</div>
-{% for todos in todos %}
+<div class="row b-3 m-3" >
 
     <div class="card" style="width: 18rem;">
-        <div class="image" style="background-image: url('{{ MEDIA_URL }}{{ todos.imagens }}')"></div>
+        <div class="image" style="background-image: url('{{ MEDIA_URL }}{{ todos.image }}')"></div>        
         <div class="card-body">
-            <h5 class="card-title">{{ todos.continente }}</h5>
+            <h5 class="card-title">{{ todos.name }}</h3>
+            <p class="product-description">{{ todos.description }}</p>
+            <p><strong>€{{ todos.price }}</strong></p>
         </div>
-    </div>
         
-    
+        
+    </div>
+</div>
+
+
 {% endfor %}
+</div>
+
 
 {% endblock %}

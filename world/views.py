@@ -3,7 +3,7 @@ from .models import Lugares
 
 
 # Create your views here.
-def all_continentes(request):
+def all_resorts(request):
     """A view that display the index page"""
     todos = Lugares.objects.all()
 
