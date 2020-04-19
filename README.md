@@ -111,11 +111,11 @@ HTML and CSS validators were used to ensure identation and error wont accur.
 [link](https://www.booking.com/hotel/mg/heure-bleue.html)<br/>
 
 #### Angra Dos Reis <br/>
-[link]https://media-cdn.tripadvisor.com/media/photo-s/0f/73/be/04/img-20170423-125021-360.jpg)<br/>
+[link](https://media-cdn.tripadvisor.com/media/photo-s/0f/73/be/04/img-20170423-125021-360.jpg)<br/>
 
 #### Coles Bay <br/>
-[link]https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
-[link]https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
+[link](https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
+[link](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
 [link](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
 
 #### Turkey Beaches <br/>
