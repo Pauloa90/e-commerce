@@ -4,3 +4,4 @@ env.py
 *.png
 static/
 media/
+env.py
