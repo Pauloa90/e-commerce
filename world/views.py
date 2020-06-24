@@ -8,4 +8,3 @@ def all_resorts(request):
     todos = Lugares.objects.all()
 
     return render(request, "world.html", {"todos": todos})
-

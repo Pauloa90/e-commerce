@@ -1,7 +1,7 @@
 /*---------- Body will follow this rules -------*/
 body{
     font-family: Arial;
-    background-color: rgb(255, 255, 255);    
+    background-color: rgb(192, 38, 38);    
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,12 +17,15 @@ body{
 }
 .jumbotron p{
     font-size: 3vh;
-    
 }
 
 .searchform{
     margin-top: 20px;
     font-family: 'Anton', sans-serif;
+}
+
+.row{
+    margin: 15px;
 }
 /*---------- Images displayed -------*/
 
@@ -96,6 +99,8 @@ caption p{
 .product-description{
     min-height: 40px
 }
+
+
 
 /*---------- Footer -------*/
 

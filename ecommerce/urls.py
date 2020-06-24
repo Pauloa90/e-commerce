@@ -25,6 +25,8 @@ from django.views import static
 from .settings import MEDIA_ROOT
 from world import urls as urls_world
 from world.views import all_resorts
+from hotels import urls as urls_hotels
+from hotels.views import all_hotels
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -36,4 +38,5 @@ urlpatterns = [
     url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT}),
     url(r'^world/', all_resorts, name='world'),
+    url(r'^hotels/', all_hotels, name='hotels'),
 ]

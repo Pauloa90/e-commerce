@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'checkout',
     'storages',
     'world',
+    'hotels'
 ]
 
 MIDDLEWARE = [
