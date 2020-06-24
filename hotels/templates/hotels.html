@@ -5,13 +5,13 @@
 {% for hotels in hotels %}
     <div class="panel panel-default">
         <div class="panel-body">
-            <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ hotel_image }}'"></div>
+            <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ hotel.image }}'"></div>
             <h3>{{ hotel.name }}</h3>
             <p class="product-description">{{ hotel.description }}</p>
-            <p><strong>€{{ hotel.price }}</strong></p>
+            <p><strong>{{ hotel.price }}</strong></p>
         </div>
 
-        <form method="post" action="{% url 'add_to_cart' hotel.id %}">
+        <form method="post" action="{% url 'add_to_cart' hotels.id %}">
             {% csrf_token %}
             <div class="input-group">
                 <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
