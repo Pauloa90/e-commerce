@@ -81,17 +81,11 @@
         </nav>
         
 
-        <h1>{% block page_heading %}{% endblock %}</h1>
+     
 
-        {% if messages %}
-        <div class="alert alert-success">
-            <div class="messages">
-                {% for message in messages %}
-                {{ message }}
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
+
+
+
         <!--Here is the search bar to make easier for the user-->
         <div class="jumbotron ">
             <h1 class="display-4 mt-5">Find your destination!</h1>
@@ -109,7 +103,17 @@
         
         </div>
        
-            </div>
+    {% if messages %}
+                <br><br><br>
+                <div class="alert alert-success">
+                    <div class="messages jumbotron">
+            
+                        {% for message in messages %} 
+                            {{ message }} 
+                        {% endfor %}
+                    </div>
+                </div>
+    {% endif %}           
         {% block content %}{% endblock %}
 
         
