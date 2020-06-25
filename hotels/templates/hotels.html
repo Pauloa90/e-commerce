@@ -3,14 +3,16 @@
 
 <div>
 {% for hotels in hotels %}
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ hotel.image }}'"></div>
-            <h3>{{ hotel.name }}</h3>
-            <p class="product-description">{{ hotel.description }}</p>
-            <p><strong>{{ hotel.price }}</strong></p>
-        </div>
+    <div class="row b-3 m-3" >
 
+    <div class="card" style="width: 18rem;">
+        <div class="image" style="background-image: url('{{ MEDIA_URL }}{{ hotels.image }}')"></div>        
+        <div class="card-body">
+            <h5 class="card-title">{{ hotels.name }}</h3>
+            <p class="product-description">{{ hotels.description }}</p>
+            <p><strong>€{{ hotel.price }}</strong></p>
+        </div>
+        
         <form method="post" action="{% url 'add_to_cart' hotels.id %}">
             {% csrf_token %}
             <div class="input-group">
@@ -21,7 +23,10 @@
             </div>
         </form>
     </div>
-</div>
+    
+
+
 {% endfor %}
+</div>
 </div>
 {% endblock %} 
