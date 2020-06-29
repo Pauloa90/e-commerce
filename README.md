@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)
 # E-Go
 Full Stack Framework with Django Milestone Project
 
