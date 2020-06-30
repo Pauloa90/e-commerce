@@ -65,10 +65,10 @@ body{
 }
 
 .product{
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 150px;
+    width: 100%;
     height: 150px;
     margin: 0 auto;
 }
