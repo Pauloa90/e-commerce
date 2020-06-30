@@ -22,11 +22,11 @@
         <div class="card-body">
             <h5 class="card-title">{{ item.product.name }}</h3>
             <p class="product-description">{{ item.product.description }}</p>
-                <p>{{ item.quantity }}</p>
-                <p>{{ item.product.price }}</p>               
+                <p>Qty {{ item.quantity }}</p>
+                <p><strong>Total {{ item.product.price }}</strong></p>               
             
         </div>
-    </div>.
+    </div>
 </div>
 {% endfor %}
 </div>
