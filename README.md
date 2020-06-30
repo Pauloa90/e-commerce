@@ -8,7 +8,7 @@ Full Stack Framework with Django Milestone Project
 This is an Ecommerce website built with Python, Django as a python’s framework from Code Institute.
 E-go is a fictitious e-commerce website that provides holidays packages for users who want to buy this service to go on holidays. 
 The website will provide the price and more details for different places to go, cultural aspects and curiosities about different coutries as well.
-
+![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/homepage01.PNG)
 This project has incorporated code pulled from other projects given by Code Institute:
 
 1. django-e-commerce project
@@ -29,10 +29,10 @@ The course of Code Institute guided me durnig this project.
 Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
 
 Please check the link for a WireFrame and Screeshot:
-1. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot1.PNG)
-2. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot2.PNG)
-3. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot3.PNG)
-2. ![WireFrame](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/wireframe.jpeg)
+1. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot1.PNG)
+2. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot2.PNG)
+3. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot3.PNG)
+2. [WireFrame](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/wireframe.jpeg)
 
 
 ## User Experience 
