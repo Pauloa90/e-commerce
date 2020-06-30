@@ -225,10 +225,11 @@ Thoses are the links for the pictures posted on the Home page of the ecommerce:
 [Pink Bay](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
 [Autralia](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
 [Turkey Beaches](https://travelaway.me/best-beaches-turkey/)<br/>
-
-The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:
-- Discover:
 <br/>
+The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:<br/>
+- Discover:
+
+
 [Thailand](https://www.austinadventures.com/travel-resources/20-fun-facts-about-thailand/)<br/>
 [Australia](https://www.travelnation.co.uk/blog/10-interesting-facts-about-australia-that-may-surprise-you)<br/>
 [New Zealand](https://www.swedishnomad.com/facts-about-new-zealand/)<br/>
