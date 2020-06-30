@@ -1,26 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <!--This page will display all the produts that the comapny is selling and the user can search the destiny if they wish-->
-<div class="row row-flex">
-{% for todos in todos %}
 
-<div class="row b-3 m-3" >
-
-    <div class="card" style="width: 18rem;">
-        <div class="image" style="background-image: url('{{ MEDIA_URL }}{{ todos.image }}')"></div>        
-        <div class="card-body">
-            <h5 class="card-title">{{ todos.name }}</h3>
-            <p class="product-description">{{ todos.description }}</p>
-            <p><strong>€{{ todos.price }}</strong></p>
-        </div>
-        
-        
-    </div>
-</div>
-
-
-{% endfor %}
-</div>
 
 
 {% endblock %}
