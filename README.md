@@ -34,6 +34,8 @@ The course of Code Institute guided me durnig this project.
 6. Features 
 7. Features do be Implemented
 8. Deployment
+    - Amazon
+    - Heroku
 9. Testing
 10. Credits
 
@@ -169,26 +171,38 @@ There were a few Features left to be Implemented:
 - Social media - the webpage is ready to change the link if the ownerhas other social medias such as Facebook, Instagran, etc.
 
 ## Deployment
+### Amazon 
+I created an Amazon account in order to user the service called S3. S3 is a cloud based service tha AWS provides to storage any media or static file for my project. After creating the account, I created a bucket with a name realted to my project.
+In this case called "ecommercego". After created the bucket, I went to properties to make it able to hot the static file and media from my project.  
+Then I created a policy and a user in Amazon, using the service called IAM(identity and Access Management). 
+Those were necessary to manage which user is allowed to change and change the buckets propertie.
+Then we go on CORS configurations and prefilled with a default code config. Going on the created bucket policy and attaching the policy to the bucket, it will allow the our account to accsess all the content across all web.
+Going again on IAM, we createad a group and set the policies to all. That will create a file that must to be kept safely with the ID and Key to have access to the policy.
+
+When all this is set, we install Boto3, that will allow the storaging on S3. Go to installed apps and add Django Storages.
+
+Once that everything is fine run "python3 manage.py collectstatic" and confirm when asked "yes" to collect all files from our project and host them into S3.
+
 In order to deploy this project a python package Gunicorn was installed and Heroku is the hoster of this project.
-For Storaging the package Pillow has been installed. AWS (Amazon Web Services) S3 was used to store media files and Boto3 to connect to project to it.
-The project has been styled using Font Awesome, Bootstrap and Django-Forms Bootstrap to allo the usage of Bootstrap in templates.
 
-I used Heroku services to deploy my project using Postgres database though the following steps:
+### Heroku
+Heroku is the service the we are using to host our website. It is synced to the master branch of the Git repository.
 
-- On gitpod install: "pip3 install dj-database-url". This will allow connection to a database
-- Install psycopg2 typing "pip3 intall psycopg2" which will allow connection to the postgres database.
-- Create requirements.txt typing "pip3 freeze>requirements.txt"
-- Change deafult sqlite database to : DATABASES = { 'default' :dj_database_url.parse(os.environ.get('DATABASE_URL')) }
-- Add DATABASE_URL config vars code to env.py 
-- Make migrations to migrate all database typing "python3 manage.py makemigrations" and "python3 manage.py migrate"
-- Install gunicorn typing "pip3 isntall gunicorn"
-- Create Procfile 
-- Add heroku to ALLOWED_HOST = []
+In order to deploy please go through the following steps:
+- Log in into Heroku and create a "New app".
+- Choose a name for you app and region to be hosted and click on "create app"
+- Click on "config Vars" once that you select your app just created and set all the variable in Heroku. You can check your env.py where the secret keys are.
+- Create the requirements.txt file with all the libraries installed to make your app run typing: pip3 freeze -- local > requirements.txt.
+- Create  Profcile typing: echo web: gunicron < NAME OF YOUR PROJECT >.wsgi:application > Profcile
+- On Heroku's settings copy http://< app_name.herokuapp.com >
+- On the tab "Deploy" find the method of deployment "GitHub" selecting the project your Git Hub account.
+- Click on "Deploy" and your project will be hosted by Heroku once the build is complete.
+- Once that all is done go to "Open app" to check your project.
 
 ### Testing
 Travis has been used for testing the project with a "passing" mark.
-Please see below:
-[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)
+Please see below:<br/>
+[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)<br/>
 
 Simple tests were written on the app "hotels" and "products". They ran with "OK" mark.
 
@@ -207,11 +221,11 @@ Thoses are the links for the pictures posted on the Home page of the ecommerce:
 [Coles Bay](https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
 [Pink Bay](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
 [Autralia](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
-
 [Turkey Beaches](https://travelaway.me/best-beaches-turkey/)<br/>
 
 The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:
 - Discover:
+<br/>
 [Thailand](https://www.austinadventures.com/travel-resources/20-fun-facts-about-thailand/)<br/>
 [Australia](https://www.travelnation.co.uk/blog/10-interesting-facts-about-australia-that-may-surprise-you)<br/>
 [New Zealand](https://www.swedishnomad.com/facts-about-new-zealand/)<br/>
@@ -220,3 +234,8 @@ The text of both section "Discover" and "Curiosities" were not written and also 
 - Curiosities 
 [All the blogs](https://www.under30experiences.com/blog/top-10-travel-bloggers-you-should-already-be-following)
 
+## Acknowledment
+- Thank you Code Institute for this amazing course.
+- Thank you Aaron Sinnott for your feedback and your time.
+- Thank you Kerry College for providing us an amazing place to study.
+- Thank to all Code Institute tutors from the Tutor Assistance Tab.
