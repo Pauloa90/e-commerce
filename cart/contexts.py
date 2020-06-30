@@ -1,6 +1,5 @@
 from django.shortcuts import get_object_or_404
 from products.models import Product
-
 def cart_contents(request):
     """Ensures that the cart content are available rendering every page"""
 

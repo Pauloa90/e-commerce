@@ -201,3 +201,22 @@ font-size: 18px;
 .text-muted .photos {
     color: pink;
 }
+/*---------- Discover -------*/
+
+.clubexperience{
+    background: #a5a2dec2;
+}
+
+.boxbeers{
+    
+    width: 50vh;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
