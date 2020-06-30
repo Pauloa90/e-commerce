@@ -238,6 +238,7 @@ The text of both section "Discover" and "Curiosities" were not written and also 
 - Curiosities <br/>
 [All the blogs](https://www.under30experiences.com/blog/top-10-travel-bloggers-you-should-already-be-following)
 <br/>
+
 ## Acknowledment
 - Thank you Code Institute for this amazing course.
 - Thank you Aaron Sinnott for your feedback and your time.
