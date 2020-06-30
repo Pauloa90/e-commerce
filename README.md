@@ -41,13 +41,13 @@ The course of Code Institute guided me durnig this project.
 Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
 
 Please check the link for Screeshots:
-1. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot01.PNG)
-2. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot02.PNG)
-3. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot03.PNG)
-4. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot04.PNG)
-5. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot05.PNG)
-6. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot06.PNG)
-7. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot07.PNG)
+1. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot01.PNG)
+2. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot02.PNG)
+3. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot03.PNG)
+4. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot04.PNG)
+5. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot05.PNG)
+6. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot06.PNG)
+7. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot07.PNG)
  
 
 
@@ -65,23 +65,23 @@ As a new user of the webpage, I'd like to be able to:
 - Find out what I can get to know on this website.
 On the landing page the user can already see the e-commerce with all the products (packages) he is able to buy.
 
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user01.PNG)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user01.PNG)
 
 - Get to know more about travelling from different people. 
 The user is able to check the session "Discover" and hear from different people their stories. On this session the user get the links of many blogs regarding travelling.
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user02.PNG)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user02.PNG)
 
 - If the user still doesnt know about where to go, they can check curiosities about places that the website is selling the packge to, such as Brazil, New Zealand and Thailand.
 On the session "curiosities" the user will get to know some fun and interesting things about some places thar the website is selling the package to.
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user03.PNG)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user03.PNG)
 
 - The user is able to register themself in order to purchase some thing from the webpage.
 The user will have to fill a form in order to do it.
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user04.PNG)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user04.PNG)
 
 - The user is able to choose packages of holidays and get to see it before finishing the order.
 When the products are in the cart, the user can amend the order, deleting or adding a new product.
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user05.PNG)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/user05.PNG)
 
 ### Strategy 
 E-go is a simple web ecommerce to make peoples lives eaiser regarding travelling. On the webpage they can get to know more about travelling through the blogs and also curiosities from diffenrent places.
@@ -92,30 +92,30 @@ I wanted from the begging have a webpage easy to access from the user's side, an
 "Curiosities" thar provides interesting stories and facts about places being sold on the ecommerce and "Discover" where users can access many Blogs that post things about trips, travelling and etc.
 
 ### Structure
-The user arriving on the main page, they can get to see a navbar on top with the session that they have access on the left side, and on the right side a Login area.
-Once that the user is regirested on website, they are able to purchase any product. To register the user has to give a Login username, password and email. If the user forgets the password, they can access "Reset Password" and they will receive
-an email to have a new password. In both cases a feedback message will appear.
+The user who arrives at the main page can see a navigation bar at the top with the session they have access to on the left side and on the right side a Login area.
+After the user is re-certified on the website, he can buy any product. To register, the user must provide a username, password and email for the Login. If the user forgets the password, they can access "Reset password" and receive
+an email to have a new password. In both cases, a feedback message will be displayed.
 
-The User can simply add the quantity of the package in the cart by clicking  on blank field of the cart with the product that they wish, and add a number (people) on it and then click on "add".
-The User is redirect to main page again giving the opportunitty to add another product (package). If that is not the case the user can go o "cart" on the right top side of the navbar and be redirect to the checkout session.
+The user can simply add the quantity of the packaging to the cart, by clicking on the blank field of the cart with the product he wants, and adding a number (people) to it and then clicking on "add".
+The user is redirected to the main page again, giving the opportunity to add another product (package). If this is not the case, the user can access the "cart" at the top right of the navigation bar and be redirected to the checkout session.
 
-Once the order is according to what the user chose, clicking on "checkout" and add the payment details required, the order will be processed by stripe. If there is anything to amend, the user can change the quantity in the respective field and click on "amend".
-If the user wants to delete the item, they can simply type "0" on the field and "amend" right after and the product will be deleted.
+OAfter the order is in accordance with what the user has chosen, click on "checkout" and add the necessary payment details, the order will be processed by bands. If there is something to change, the user can change the quantity in the respective field and click on "change".
+If the user wants to delete the item, just type "0" in the field and "change" right after, and the product will be deleted.
 
-In both scenarios, payment processed successufully or not, a feedback message will appear to the user. If the payment is processed the user is redirected to the main page again.
+In both scenarios, payment processed successfully or not, a feedback message will be displayed to the user. If the payment is processed, the user will be redirected to the main page again.
 
-In Discover section, the user can click on the Blogs which is more interesting for thenself and another tab will open on the browser making sure the user does not lose track and gets away from the webpage.
+In the Discover section, the user can click on the Blogs most interesting to you and another tab will open in the browser to ensure that the user does not lose control and stay away from the web page.
 
-In the Section "Curiosities", Jumbotrons with images and text with fun facts about different countries will be shown.
+In the "Curiosities" section, Jumbotrons with images and text with curiosities about different countries.
 
 ### Wireframes
 Here are the 3 wireframes for each section of my project:
 #### Home
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes01.jpeg)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes01.jpeg)
 #### Discover
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes02.jpeg)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes02.jpeg)
 #### Curiosities
-![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes03.jpeg)
+![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes03.jpeg)
 
 ## Installation
 To be able to create the app the folowing steps were taken:
