@@ -127,10 +127,10 @@ Here are the 3 wireframes for each section of my project:
 1. HTML5 - The project used HTML to define the layout of the page.
 2. CSS3 - The project is styled using css.
 3. Python - The back-end fucntions are code based in Python.
-4. JavaScripT/JQuery - To implement Stripe for payment, I used Javascript and Jquery 
-5. Django
-6. Bootstrap
-7. GitHub/GitPod
+4. JavaScripT/JQuery - To implement Stripe for payment, I used Javascript and Jquery.
+5. Django - It is framework using python.
+6. Bootstrap - This library was used to make the design responsive
+7. GitHub/GitPod - I'm using this open source repository for my code.
 8. Font Awesome - I got the icons from Font Awesome website.
 9. Stripe - Stripe made the eccomerce fucntional in terms of payments, receiving payments by card.
 10. Heroku - This ecommerce is hoted on Heroku.
@@ -226,6 +226,7 @@ Thoses are the links for the pictures posted on the Home page of the ecommerce:
 [Autralia](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
 [Turkey Beaches](https://travelaway.me/best-beaches-turkey/)<br/>
 <br/>
+
 The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:<br/>
 - Discover:
 
