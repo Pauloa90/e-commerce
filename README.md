@@ -198,20 +198,16 @@ HTML and CSS validators were used to ensure identation and error wont accur.
 
 ## Credits
 
-Thoses are the links for the pictures posted on the Home page of the ecoomerce:
--   <br/> 
+Thoses are the links for the pictures posted on the Home page of the ecommerce:
+
 [New Zealand](https://www.newzealand.com/in/nature-and-wildlife/)<br/>
--  <br/>
 [Cancun](https://www.mexicancaribbean.travel/cancun/)<br/>
--  <br/>
 [Madagascar](https://www.booking.com/hotel/mg/heure-bleue.html)<br/>
-- <br/>
 [Angra Dos Reis ](https://media-cdn.tripadvisor.com/media/photo-s/0f/73/be/04/img-20170423-125021-360.jpg)<br/>
--  <br/>
 [Coles Bay](https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
 [Coles Bay](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
 [Coles Bay](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
--  <br/>
+
 [Turkey Beaches](https://travelaway.me/best-beaches-turkey/)<br/>
 
 The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:
