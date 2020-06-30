@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)
+
 
 # E-Go
 Full Stack Framework with Django Milestone Project
@@ -142,14 +142,18 @@ To be able to create the app the folowing steps were taken:
 
 ## Technology used
 
-1. HTML5
-2. CSS3
-3. Python
-4. JAVASCRIPT
+1. HTML5 - The project used HTML to define the layout of the page.
+2. CSS3 - The project is styled using css.
+3. Python - The back-end fucntions are code based in Python.
+4. JavaScripT/JQuery - To implement Stripe for payment, I used Javascript and Jquery 
 5. Django
 6. Bootstrap
-7. JQuery
-8. GitHub/GitPod
+7. GitHub/GitPod
+8. Font Awesome - I got the icons from Font Awesome website.
+9. Stripe - Stripe made the eccomerce fucntional in terms of payments, receiving payments by card.
+10. Heroku - This ecommerce is hoted on Heroku.
+11. Travis-CI - Is used to build and test project hoted at GitHub.
+12. AWS S3 - Storages all the media and static files of this project.
 
 ## Features
 
@@ -182,33 +186,41 @@ I used Heroku services to deploy my project using Postgres database though the f
 - Add heroku to ALLOWED_HOST = []
 
 ### Testing
-Travis has been used for testing the project.
+Travis has been used for testing the project with a "passing" mark.
+Please see below:
+[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)
+
+Simple tests were written on the app "hotels" and "products". They ran with "OK" mark.
+
+
 HTML and CSS validators were used to ensure identation and error wont accur.
 
 
 ## Credits
 
+Thoses are the links for the pictures posted on the Home page of the ecoomerce:
+-   <br/> 
+[New Zealand](https://www.newzealand.com/in/nature-and-wildlife/)<br/>
+-  <br/>
+[Cancun](https://www.mexicancaribbean.travel/cancun/)<br/>
+-  <br/>
+[Madagascar](https://www.booking.com/hotel/mg/heure-bleue.html)<br/>
+- <br/>
+[Angra Dos Reis ](https://media-cdn.tripadvisor.com/media/photo-s/0f/73/be/04/img-20170423-125021-360.jpg)<br/>
+-  <br/>
+[Coles Bay](https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
+[Coles Bay](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
+[Coles Bay](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
+-  <br/>
+[Turkey Beaches](https://travelaway.me/best-beaches-turkey/)<br/>
 
-#### New Zealnd <br/> 
-[link](https://www.newzealand.com/in/nature-and-wildlife/)<br/>
+The text of both section "Discover" and "Curiosities" were not written and also the pictures taken by me but by the authors below:
+- Discover:
+[Thailand](https://www.austinadventures.com/travel-resources/20-fun-facts-about-thailand/)<br/>
+[Australia](https://www.travelnation.co.uk/blog/10-interesting-facts-about-australia-that-may-surprise-you)<br/>
+[New Zealand](https://www.swedishnomad.com/facts-about-new-zealand/)<br/>
+[Brazil](https://www.natgeokids.com/nz/discover/geography/countries/country-fact-file-brazil/)<br/>
 
-
-#### Cancun <br/>
-[link](https://www.mexicancaribbean.travel/cancun/)<br/>
-
-#### Madagascar <br/>
-[link](https://www.booking.com/hotel/mg/heure-bleue.html)<br/>
-
-#### Angra Dos Reis <br/>
-[link](https://media-cdn.tripadvisor.com/media/photo-s/0f/73/be/04/img-20170423-125021-360.jpg)<br/>
-
-#### Coles Bay <br/>
-[link](https://en.wikipedia.org/wiki/Coles_Bay,_Tasmania)<br/>
-[link](https://cdn.broadsheet.com.au/cache/ba/f0/baf05ddfb005ae00d701ec6a69abb59e.jpg)<br/>
-[link](https://www.cntraveler.com/galleries/2015-12-18/the-10-best-beaches-in-australia)<br/>
-
-#### Turkey Beaches <br/>
-[link](https://travelaway.me/best-beaches-turkey/)<br/>
-
-
+- Curiosities 
+[All the blogs](https://www.under30experiences.com/blog/top-10-travel-bloggers-you-should-already-be-following)
 
