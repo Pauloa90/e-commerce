@@ -7,30 +7,40 @@ Full Stack Framework with Django Milestone Project
 
 This is an Ecommerce website built with Python, Django as a python’s framework from Code Institute.
 E-go is a fictitious e-commerce website that provides holidays packages for users who want to buy this service to go on holidays. 
-The website will provide the price and more details for different places to go to such as main sightseeings, most import places and bit of the cultural aspects.
+The website will provide the price and more details for different places to go, cultural aspects and curiosities about different coutries as well.
 
-This project is incorporates code pulled from other projects give by Code Institute:
+This project has incorporated code pulled from other projects given by Code Institute:
 
 1. django-e-commerce project
 2. django-auth
+
+The course of Code Institute guided me durnig this project.
+
+## Summary 
+1. Live Demo
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
 
 ## Live Demo
 Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
 
 Please check the link for a WireFrame and Screeshot:
-1. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot1.PNG)
-2. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot2.PNG)
-3. [Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot3.PNG)
-2. [WireFrame](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/wireframe.jpeg)
+1. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot1.PNG)
+2. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot2.PNG)
+3. ![Screeshot](https://ecommercego.s3-eu-west-1.amazonaws.com/static/screeshots/Screenshot3.PNG)
+2. ![WireFrame](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/wireframe.jpeg)
 
 
 ## User Experience 
 
-This website is for any user interested in going on holidays, looking for one single website where they can find a package with hotel, flight and experiences in just one place.
+This website is for any user interested in going on holidays, looking for one single website where they can find a package with hotel, experiences, curiosities about different countries in only one webpage.
 The ecommerce is only online at the moment, depending on the clients wish, a special web app can be designed to have in a store.
 A super user was created in order to add the products (packages) and user can also register in order to submit the payment.
 
-The course of Code Institute was my guide during the project.
 
 ## Installation
 To be able to create the app the folowing steps were taken:
