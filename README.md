@@ -29,10 +29,10 @@ The course of Code Institute guided me durnig this project.
  - Home
  - Discover
  - Curiosities
-4. Installation
-5. Technology used
-6. Features 
-7. Features do be Implemented
+4. Technology used
+5. Features
+6. Features do be Implemented 
+7. Installation
 8. Deployment
     - Amazon
     - Heroku
@@ -119,26 +119,6 @@ Here are the 3 wireframes for each section of my project:
 #### Curiosities
 ![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes03.jpeg)
 
-## Installation
-To be able to create the app the folowing steps were taken:
-
-1. Start with gitpod full template and install Django with the following comand: pip3 install django==1.11.24
-
-2. CReate a project with django: django-admin startproject ecommerce
-
-3. Download this project by cliking the [link](https://github.com/Pauloa90/e-commerce)
-
-4. Create env.py and .gitignore to keep your secret keys safe.
-
-5. Set up a Strip account and keep the secret key safe on .gitignore
-
-6. Create an Amazon account and crate a bucket to store your media on S3 services provided by amazon.
-
-7. Type on the terminal "python manage.py migrate" to apply migrations to your local sqlite database.
-
-8. "python3 manage.py createsuperuser" will create a user able to add files to the database or create a new database.
-
-9. To run the project type on terminal "python3 manage.py runserver".
 
 
 
@@ -169,6 +149,29 @@ There were a few Features left to be Implemented:
 - Contact form - will make the user able to contact the owner of the ecommerce.
 - Newsletter - the users will receive any update from the webpage with deals and good offers.
 - Social media - the webpage is ready to change the link if the ownerhas other social medias such as Facebook, Instagran, etc.
+
+## Installation
+To be able to create the app the folowing steps were taken:
+
+1. Start with gitpod full template and install Django with the following comand: pip3 install django==1.11.24
+
+2. CReate a project with django: django-admin startproject ecommerce
+
+3. Download this project by cliking the [link](https://github.com/Pauloa90/e-commerce)
+
+4. Create env.py and .gitignore to keep your secret keys safe.
+
+5. Set up a Strip account and keep the secret key safe on .gitignore
+
+6. Create an Amazon account and crate a bucket to store your media on S3 services provided by amazon.
+
+7. Type on the terminal "python manage.py migrate" to apply migrations to your local sqlite database.
+
+8. "python3 manage.py createsuperuser" will create a user able to add files to the database or create a new database.
+
+9. To run the project type on terminal "python3 manage.py runserver".
+
+
 
 ## Deployment
 ### Amazon 
