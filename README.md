@@ -17,48 +17,8 @@ This project has incorporated code pulled from other projects given by Code Inst
 
 The course of Code Institute guided me durnig this project.
 
-## Summary 
-1. Live Demo
-2. UX
-    - User Stories
-    - Strategy
-    - Scope
-    - Strutucte
-
-3. Wireframes
- - Home
- - Discover
- - Curiosities
-4. Technology used
-5. Features
-6. Features do be Implemented 
-7. Installation
-8. Deployment
-    - Amazon
-    - Heroku
-9. Testing
-10. Credits
-
-## Live Demo
-Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
-
-Please check the link for Screeshots:
-1. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot01.PNG)
-2. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot02.PNG)
-3. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot03.PNG)
-4. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot04.PNG)
-5. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot05.PNG)
-6. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot06.PNG)
-7. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot07.PNG)
- 
-
-
-
-## UX
-### User Stories
-
-
-This site is for any user interested in going on holidays, looking for a single site where you can find a package with hotels, experiences, curiosities about different countries in just one web page.
+This site is for any user interested in going on holidays, looking for a single site where you can find a package with hotels, experiences, curiosities about different
+countries in just one web page.
 
 E-commerce is only online at the moment, depending on customers' wishes, a special web application can be designed to have in a store.
 A super user was created to add the products (packages) and the user can also register to send the payment.
@@ -119,8 +79,54 @@ Here are the 3 wireframes for each section of my project:
 #### Curiosities
 ![screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/wireframes03.jpeg)
 
+## Live Demo
+Please check the link to see the deployed version of the app: [link](https://ecommercego.herokuapp.com/)
+
+Please check the link for Screeshots:
+1. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot01.PNG)
+2. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot02.PNG)
+3. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot03.PNG)
+4. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot04.PNG)
+5. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot05.PNG)
+6. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot06.PNG)
+7. [Screenshot](https://ecommercego.s3-eu-west-1.amazonaws.com/media/screeshot07.PNG)
+ 
 
 
+## User Experience(UX)
+
+### User Stories
+* **First Time Visitor Goals**
+- As a First Time Visitor, I want to understand the concept of the website and its purpose.
+- As a First Time Visitor, I want to able to navigate through the website to find the content that I'm looking for,
+- As a First Time Visitor, I want to look at the blogs related to travelling and also about cultures from different places.
+- As a First Time Visitor, I want to find if the webpage sells what I'm looking for.
+
+* **Returning Visitor Goals**
+- As a Returning Visitor, I want to know if there any update on the packages and prices.
+- As a Returning Visitor, I want to get in contact with the company E-go.
+- As a Returning Visitor, I wan to open the social media links to get to know more about the company.
+
+* **Frequent Visitor Goals**
+- As a Frequent User, I want to know there are is deal on the packages sold on the website.
+- As a Frequent User, I want to be able to subscribe on the Newsletter.
+- As a Frequent User, I want to search if the is a specif detination that I want to. 
+
+
+## Design
+
+**Colour Scheme**
+Blue and white were used as the main two color for this application. Blue is gender neutral, so we can attract either men and women. 
+It does also bring the idea of sky, travelling etc.
+White is common used as a neutral color, it makes clear for the user and do not over load the webpage with dar colors.
+
+**Typography**
+Anton and Roboto were used as the main fonts for this project. They are commonly  used in a project designed to be neat and tidy.
+It does also bring identity to this application.
+
+**Imagery**
+Imagery it is also very important. For that reason, the images standing for the products sold on the web page, were carefully selected to 
+bring a bit of what the user can expect to be, if they buy that product.
 
 ## Technology used
 
@@ -137,6 +143,84 @@ Here are the 3 wireframes for each section of my project:
 11. Travis-CI - Is used to build and test project hoted at GitHub.
 12. AWS S3 - Storages all the media and static files of this project.
 
+
+# Testing
+HTML and CSS validators (W3C) were used to ensure identation and error wont accur.
+
+### Testing User Stories from User Experience section
+
+* **First Time Visitor Goals**
+- As a First Time Visitor, I want to understand the concept of the website and its purpose.
+    a. Upon entering the webpage, users are greeted with simple and neat Navbar with the 3 mais sections.
+    b. There is a search bar, with the text "Find your destination!
+        You will find the best holiday package all inclusive that suits you best!".
+        That is a call and also it stands for the website purpose, making the subject approarched on the app very clean.
+    c. Just right under the search bar, all the packages sold on the the website are being displayed.
+    d. The user will know right after entering on the web page the purpose of the website.
+
+- As a First Time Visitor, I want to able to navigate through the website to find the content that I'm looking for,
+    a.  The search bar is a blue and white Jumbotron with a call out. The user is able to simple type what the destination they are looking for.
+        of this webpage provides it, it will be displayed.
+    b. If the user is looking for blogs, and they are interested in subject about travelling, there is a section called "Discorver".
+    c. The user will be able to also get to know a bit more about the countries and cities that this webpage is selling the packages for. 
+        The section is "Curiosities" where there is a little more information and curiosities about those contries.
+    d. Those sections are pretty well displayed and separeted, making clean and organized for the users.
+
+- As a First Time Visitor, I want to look at the blogs related to travelling and also about cultures from different places.
+    a. As mentioned before, those sections are on the Navbar of the webpage.
+    b. The user can navigate on those sections by clicking on the desired section on the Navbar.
+    c. For whatever the user decided to go to, there will be another tab opened. This is for the user no tlose track on the web page.
+
+- As a First Time Visitor, I want to find if the webpage sells what I'm looking for.
+    a. The main page contains all the services/destinations that this company provides.
+    b. In case of many services/destinations, there is also a Search bar where the user can easily find the place that they want to go to.
+    c. If the destination in not found, the user can go back on the page and reloaded it with the packages that E-go provides.
+
+* **Returning Visitor Goals**
+- As a Returning Visitor, I want to know if there any updates on the packages and prices.
+    a. Any updates made on the webpage will be displayed first.
+    b.  If a returning visitor is checking on E-go again, any updates on services will be shown first.
+    c. The offers will be displayed as the negotiation  goes with the other companies.
+    d. There is also a Newsletter (to be Implemented for Frequent users).
+
+- As a Returning Visitor, I want to get in contact with the company E-go.
+    a. Contact us is a feature to be implemented. In this section the user will be able to fill up a form.
+    b. On this form the user can let the company the subject and reason for the contact and describe it in a text box.
+    c. The "contact" link is on the footer of all the pages. The user will be clearly able to reach out the management of the company.
+
+- As a Returning Visitor, I want to open the social media links to get to know more about the company.
+    a. Social media links were put on the footer of the application.
+    b. Those links will be displayed  in any page open on the webpage.
+    c. E-go is fictitious company, being the reason why there is E-go social media profiles.
+    d. The links will bring the users to the main page of respectively : Twitter, Facebook, Instagram and Youtube.
+    e. All the links will be open in another tab not letting the user lose track on the webpage.
+
+* **Frequent Visitor Goals**
+- As a Frequent User, I want to know if there are deals on the packages sold on the website.
+    a. If the price is changed as a deal, a bold font text will appear on the package affected.
+    b. Deals and promotions can be sent to the users if they subscribe on the Newsletter.
+ 
+- As a Frequent User, I want to be able to subscribe to the Newsletter.
+    a. This feature is to be implemented. The user will have to fill the field on the bottom right Newsletter with the email.
+    b. Users will receive any updates on the webpage including the sections "Discover" if there is any new blog posted or "Culture".
+    c. The user will be able to cancel the Newsletter by requestins it by email.
+ 
+- As a Frequent User, I want to search if this is a specific destination that I want to go to. 
+    a. Using the search bar the user can search for any destination they wish.
+    b. If the destination is not found, that means that the company does not provide this service.
+    c. By reloading the page on going back, all the services will be displayed normally again.
+
+### Futher Testing
+- The following browser were used to test this web page: Google Chrome and Internet Explorer.
+- The website was viewed on different size of monitor, laptops and smartphones.
+- Travis has been used for testing the project with a "passing" mark.
+    Please see below:<br/>
+    [![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)<br/>
+
+- Simple tests were written on the app "hotels" and "products". They ran with "OK" mark.
+
+
+
 ## Features
 
 Navigation bar is visible on all pages and also the search field in a Jumbotron. If the screen becomes smaller it toggles and the user is able to visualise it on click.
@@ -150,12 +234,17 @@ There were a few Features left to be Implemented:
 - Newsletter - the users will receive any update from the webpage with deals and good offers.
 - Social media - the webpage is ready to change the link if the ownerhas other social medias such as Facebook, Instagran, etc.
 
+## Database 
+A simple database scheme is represented by the image below.
+
+![Scheme](https://ecommercego.s3-eu-west-1.amazonaws.com/static/wireframes/databsae+schema.png)
+
 ## Installation
 To be able to create the app the folowing steps were taken:
 
 1. Start with gitpod full template and install Django with the following comand: pip3 install django==1.11.24
 
-2. CReate a project with django: django-admin startproject ecommerce
+2. Create a project with django: django-admin startproject ecommerce
 
 3. Download this project by cliking the [link](https://github.com/Pauloa90/e-commerce)
 
@@ -201,16 +290,6 @@ In order to deploy please go through the following steps:
 - On the tab "Deploy" find the method of deployment "GitHub" selecting the project your Git Hub account.
 - Click on "Deploy" and your project will be hosted by Heroku once the build is complete.
 - Once that all is done go to "Open app" to check your project.
-
-### Testing
-Travis has been used for testing the project with a "passing" mark.
-Please see below:<br/>
-[![Build Status](https://travis-ci.org/Pauloa90/e-commerce.svg?branch=master)](https://travis-ci.org/Pauloa90/e-commerce)<br/>
-
-Simple tests were written on the app "hotels" and "products". They ran with "OK" mark.
-
-
-HTML and CSS validators were used to ensure identation and error wont accur.
 
 
 ## Credits
